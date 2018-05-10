@@ -1,3 +1,56 @@
+@media only screen and (max-width: 600px) {
+	.parallax1 {
+		background-image: url('../img/background.jpg');
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.caption {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		color: #000;
+	}
+	.caption span {
+		cursor: default;
+		background-color: #ddd;
+		color: black;
+		padding: .5em 1em;
+		font-size: 2.2em;
+		letter-spacing: 5px;
+		font-variant: small-caps;
+		opacity: .5;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+	.caption span:hover {
+		background-color: #bbb;
+		opacity: .9;
+		padding: .6em 1.1em;
+		-webkit-transition: all .5s .2s;
+		-moz-transition: all .5s .2s;
+		-o-transition: all .5s .2s;
+	}
+	.parallax2 {
+		background-image: url('../img/background2.jpg');
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.parallax3 {
+		background-image: url('../img/background3.jpg');
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+}
+
 body, html {
 	height: 100%;
 	margin: 0;
