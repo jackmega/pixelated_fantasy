@@ -44,6 +44,24 @@ nav:hover {
 .right {
 	float: right;
 }
+.mobile-btn {
+	display: none;
+	height: 1em;
+	float: right;
+}
+.mobile-close {
+	display: none;
+	height: 1em;
+	float: right;
+}
+.dropdown {
+	display: none;
+	list-style: none;
+	float: right;
+}
+.dropdown li {
+	margin: 1em 0 0 0;
+}
 
 .parallax {
 	background-image: url('../img/background.jpg');
@@ -61,7 +79,7 @@ nav:hover {
 	text-align: center;
 	color: #000;
 }
-.caption span {
+.caption p {
 	cursor: default;
 	background-color: #ddd;
 	color: black;
@@ -70,11 +88,14 @@ nav:hover {
 	letter-spacing: 5px;
 	font-variant: small-caps;
 	opacity: .5;
+	width: 20%;
+	display: block;
+	margin: auto;
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
 	-o-transition: all .5s .2s;
 }
-.caption span:hover {
+.caption p:hover {
 	background-color: #bbb;
 	opacity: .9;
 	padding: .6em 1.1em;
@@ -141,4 +162,19 @@ nav:hover {
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
 	-o-transition: all .5s .2s;
+}
+
+@media screen and (max-width: 550px) {
+	.right {
+		display: none;
+	}
+	.mobile-btn {
+		display: block;
+	}
+	.caption p {
+		width: 50%;
+	}
+	.section {
+		height: auto;
+	}
 }

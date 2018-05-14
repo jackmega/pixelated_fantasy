@@ -44,6 +44,24 @@ nav:hover {
 .right {
 	float: right;
 }
+.mobile-btn {
+	display: none;
+	height: 1em;
+	float: right;
+}
+.mobile-close {
+	display: none;
+	height: 1em;
+	float: right;
+}
+.dropdown {
+	display: none;
+	list-style: none;
+	float: right;
+}
+.dropdown li {
+	margin: 1em 0 0 0;
+}
 
 .parallax1 {
 	background-image: url('../img/background.jpg');
@@ -161,4 +179,19 @@ nav:hover {
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
 	-o-transition: all .5s .2s;
+}
+
+@media screen and (max-width: 550px) {
+	.right {
+		display: none;
+	}
+	.mobile-btn {
+		display: block;
+	}
+	.caption p {
+		width: 50%;
+	}
+	.section {
+		height: auto;
+	}
 }
