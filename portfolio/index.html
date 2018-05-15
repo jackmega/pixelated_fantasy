@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='../css/master.css' rel='stylesheet' type='text/css'>
+	<link href='css/portfolio.css' rel='stylesheet' type='text/css'>
+	<link href='../img/icon.png' rel='icon' type='icon'>
+	<title>Portfolio | Jack Smith</title>
+	<script src='../js/master.js'></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href='../' class='nav-item left'>Home</a>
+			<a href='../voice/' class='nav-item right'>Voice Acting</a>
+			<a href='' class='nav-item right'>Portfolio</a>
+			<a href='../about/' class='nav-item right'>About</a>
+			<img src='../img/menu.png' class='nav-item mobile-btn' id='mobile-btn' onclick='navOpen()'>
+			<img src='../img/close.png' class='nav-item mobile-close' id='mobile-close' onclick='navClose()'>
+			<ul class='dropdown' id='dropdown'>
+				<li><a href='../about/' class='nav-item'>About</a></li>
+				<li><a href='' class='nav-item'>Portfolio</a></li>
+				<li><a href='../voice/' class='nav-item' onmouseover='voiceDrop()'>Voice Acting</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class='parallax'>
+		<div class='caption'>
+			<p>Jack Smith<br>Portfolio</p>
+		</div>
+	</div>
+	<div class='page-nav'>
+		<div class='tooltip'>
+			<a href='#animate' class='page-nav-link'>Animate</a>
+			<span class='tooltip-text'>Animation</span>
+		</div>
+		<div class='tooltip'>
+			<a href='#audition' class='page-nav-link'>Audition</a>
+			<span class='tooltip-text'>Audio</span>
+		</div>
+		<div class='tooltip'>
+			<a href='#dreamweaver' class='page-nav-link'>Dreamweaver</a>
+			<span class='tooltip-text'>Coding</span>
+		</div>
+		<div class='tooltip'>
+			<a href='#illustrator' class='page-nav-link'>Illustrator</a>
+			<span class='tooltip-text'>Vector Graphics</span>
+		</div>
+		<div class='tooltip'>
+			<a href='#indesign' class='page-nav-link'>InDesign</a>
+			<span class='tooltip-text'>Page Layout</span>
+		</div>
+		<div class='tooltip'>
+			<a href='#photoshop' class='page-nav-link'>Photoshop</a>
+			<span class='tooltip-text'>Raster Graphics</span>
+		</div>
+		<div class='tooltip'>
+			<a href='#premiere' class='page-nav-link'>Premiere Pro</a>
+			<span class='tooltip-text'>Video</span>
+		</div>
+	</div>
+	<div class='parallax'></div>
+	<div class='program' id='illustrator'>
+		<p class='program-title'>Adobe Illustrator</p>
+			<div class='project-container'>
+				<img class='project' src='img/illustrator/colour-face.png'>
+				<img class='project' src='img/illustrator/dad-mug.png'>
+				<img class='project' src='img/illustrator/dragon.png'>
+			</div>
+			<p class='show-btn' onclick='showProjects()' id='show-btn'>Show More</p>
+			<div class='more' id='projects'>
+				<div class='project-container'>
+					<img class='project' src='img/illustrator/krista-mug.png'>
+					<img class='project' src='img/illustrator/physics-boat.png'>
+					<img class='project' src='img/illustrator/plastered-panda.png'>
+					<img class='project' src='img/illustrator/'>
+					<img class='project' src='img/illustrator/'>
+					<img class='project' src='img/illustrator/'>
+				</div>
+			</div>
+			<p class='hide-btn' onclick='hideProjects()' id='hide-btn'>Hide</p>
+	</div>
+	<div class='parallax'></div>
+</body>
+</html>

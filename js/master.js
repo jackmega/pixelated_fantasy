@@ -20,3 +20,15 @@ function hideLinks() {
 	document.getElementById('show-btn').style.display = 'block';
 	document.getElementById('hide-btn').style.display = 'none';
 }
+
+// Portfolio Page
+function showProjects() {
+	document.getElementById('projects').style.display = 'block';
+	document.getElementById('show-btn').style.display = 'none';
+	document.getElementById('hide-btn').style.display = 'block';
+}
+function hideProjects() {
+	document.getElementById('projects').style.display = 'none';
+	document.getElementById('show-btn').style.display = 'block';
+	document.getElementById('hide-btn').style.display = 'none';
+}
