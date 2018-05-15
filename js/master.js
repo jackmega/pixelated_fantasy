@@ -8,3 +8,15 @@ function navClose() {
 	document.getElementById('mobile-btn').style.display = 'block';
 	document.getElementById('mobile-close').style.display = 'none';
 }
+
+// Voice Page
+function showLinks() {
+	document.getElementById('jump-links').style.display = 'block';
+	document.getElementById('show-btn').style.display = 'none';
+	document.getElementById('hide-btn').style.display = 'block';
+}
+function hideLinks() {
+	document.getElementById('jump-links').style.display = 'none';
+	document.getElementById('show-btn').style.display = 'block';
+	document.getElementById('hide-btn').style.display = 'none';
+}

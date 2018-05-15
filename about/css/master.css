@@ -65,7 +65,7 @@ nav:hover {
 }
 
 .parallax {
-	background-image: url('../img/background.jpg');
+	background-image: url('../../img/background.jpg');
 	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
