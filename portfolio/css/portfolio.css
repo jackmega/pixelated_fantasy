@@ -54,14 +54,14 @@
 	-o-transition: all .5s .2s;
 }
 .tooltip .tooltip-text::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #aaa transparent transparent
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #aaa transparent transparent;
 }
 .tooltip:hover .tooltip-text {
 	display: block;
@@ -125,4 +125,19 @@
 }
 .more {
 	display: none;
+}
+
+@media screen and (max-width: 550px) {
+	.right {
+		display: none;
+	}
+	.mobile-btn {
+		display: block;
+	}
+	.caption p {
+		width: 50%;
+	}
+	.section {
+		height: auto;
+	}
 }
