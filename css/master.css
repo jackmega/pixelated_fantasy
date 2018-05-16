@@ -58,6 +58,7 @@ nav:hover {
 	display: none;
 	list-style: none;
 	float: right;
+	text-align: right;
 }
 .dropdown li {
 	margin: 1em 0 0 0;
@@ -89,7 +90,7 @@ nav:hover {
 	letter-spacing: 5px;
 	font-variant: small-caps;
 	opacity: .5;
-	width: 20%;
+	width: 30%;
 	margin: auto;
 	-webkit-transition: all .5s .2s;
 	-moz-transition: all .5s .2s;
@@ -236,7 +237,7 @@ nav:hover {
 		display: block;
 	}
 	.caption p {
-		width: 50%;
+		width: 90%;
 	}
 	.section {
 		height: auto;

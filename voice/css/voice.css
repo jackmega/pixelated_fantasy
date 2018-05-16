@@ -109,3 +109,16 @@ footer a:hover {
 	-moz-transition: all .5s .2s;
 	-o-transition: all .5s .2s;
 }
+
+@media screen and (max-width: 550px) {
+	.item-p {
+		text-align: left;
+	}
+	.width-third {
+		width: 97.6%;
+		margin: -.5em 0;
+	}
+	.show-btn, .hide-btn {
+		width: 80%;
+	}
+}
