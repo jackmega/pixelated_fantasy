@@ -5,6 +5,7 @@ body, html {
 }
 
 .nav {
+	z-index: 1;
 	width: 100%;
 	background-color: rgba(0, 0, 0, .3);
 	position: fixed;
@@ -41,6 +42,7 @@ body, html {
 	margin-top: .8em;
 }
 .drop-content1, .drop-content2 {
+	margin-top: .7em;
 	display: none;
 	opacity: 0;
 	-webkit-transition: all .5s .2s;
